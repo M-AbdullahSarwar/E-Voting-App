@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InstructionsActivity">
+
+   <fragment
+       android:id="@+id/instructions1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:layout="@layout/fragment_instructions_page1"
+       class="com.example.e_voting.InstructionsPage1Fragment" />
+
+
+    <fragment
+        android:id="@+id/instructions2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_instructions_page2"
+        class="com.example.e_voting.InstructionsPage2Fragment" />
+
+</LinearLayout>
